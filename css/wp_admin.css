@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+
+select#job_tracker_user_level {
+	height: 6em;
+}
+
+.job_tracker_click_me,.job_tracker_click_me a {
+	cursor: pointer;
+	color: #FF7200;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+.job_tracker_tooltip {
+	cursor: help;
+}
+
+.job_tracker_make_editable:hover {
+	cursor: pointer;
+	color: #FF7200;
+}
+
+.job_tracker_unset {
+	color: #8F8F8F;
+}
+
+#job_tracker_tooltip {
+	position: absolute;
+	border: 1px solid #E6DB55;
+	background: #FFFBCC;
+	padding: 2px 5px;
+	width: 300px;
+	color: #000;
+	display: none;
+}
+
+.form-table .job_main {
+	background: #FFF;
+}
+
+.job_main .job_description_box {
+	width: 90%;
+	height: 130px;
+	padding: 4px;
+}
+
+.job_main .subject {
+	width: 90%;
+	font-size: 1.5em;
+	padding: 0;
+}
+
+.job_tracker_hidden {
+	display: none;
+}
+
+.job_tracker_status {
+	background:none repeat scroll 0 0 #F0FFDF !important;
+	border:1px solid #DBEFC2 !important;
+	padding-bottom:15px;
+}
+
+.job_tracker_archived {
+	display: none;
+	background: #EFEFEF
+}
+
+#job_tracker_show_archived {
+	text-decoration: none;
+	font-size: .9em;
+	color: #8F8F8F;
+}
+
+#job_sorter_table tr.loading {
+	background: url(../images/loading.gif) no-repeat center;
+	line-height: 1.5em;
+}
+	
+textarea[readonly], input[readonly] {
+	background-color: #EFEAEA;
+}
+
+.clear { clear: both; }
+

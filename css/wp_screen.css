@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+
+#job_page #job_tracker_itemized_table {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#job_page #job_tracker_itemized_table .alt_row {
+	background: #EFEFEF
+}
+
+#job_page #job_tracker_itemized_table .grand_total {
+	font-weight: bold;
+}
+
+#job_page #job_tracker_itemized_table .description_text {
+	color: #9F9F9F
+}
+
+#job_page #job_tracker_itemized_table th {
+	background: #DFDFDF
+}
+
+#job_page #job_tracker_itemized_table td,#job_tracker_itemized_table th
+	{
+	padding: 5px;
+	text-align: left;
+}
+
+#job_page #job_tracker_itemized_table .job_tracker_bottom_line td {
+	border-top: 1px solid #DFDFDF;
+}
